@@ -1,6 +1,6 @@
 # Mongodb
 Mongodb projects
-# Installation (Linux)
+## Installation (Linux)
 
 sudo vim /etc/yum.repos.d/mongodb.repo 
 
@@ -13,6 +13,7 @@ gpgcheck=1
 enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
 
+## Starting server
 sudo dnf install mongodb-org mongodb-org-server 
 
 sudo systemctl enable mongod.service 
